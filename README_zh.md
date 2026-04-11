@@ -4,6 +4,17 @@
 
 > 📄 English documentation: See [README.md](./README.md)
 
+## 预览
+
+### 纯色模式
+![纯色模式](https://files.seeusercontent.com/2026/04/11/k3cG/2026-04-11-204138.png)
+
+### 设置面板
+![设置面板](https://files.seeusercontent.com/2026/04/11/Xgv2/2026-04-11-204237.png)
+
+### 图片背景模式
+![图片背景模式](https://files.seeusercontent.com/2026/04/11/gzY9/2026-04-11-204302.png)
+
 ## 功能特性
 
 - 🖼️ **全屏背景** — 支持图片和纯色自由切换

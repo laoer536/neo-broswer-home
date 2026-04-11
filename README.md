@@ -4,6 +4,17 @@ A customizable browser newtab extension built with Vite + React 18 + TypeScript 
 
 > 📄 中文文档：See [README_zh.md](./README_zh.md)
 
+## Preview
+
+### Solid Color Mode
+![Solid Color Mode](https://files.seeusercontent.com/2026/04/11/k3cG/2026-04-11-204138.png)
+
+### Settings Panel
+![Settings Panel](https://files.seeusercontent.com/2026/04/11/Xgv2/2026-04-11-204237.png)
+
+### Image Background Mode
+![Image Background Mode](https://files.seeusercontent.com/2026/04/11/gzY9/2026-04-11-204302.png)
+
 ## Features
 
 - 🖼️ **Full-screen background** — image or solid color
