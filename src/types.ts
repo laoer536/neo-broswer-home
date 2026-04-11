@@ -8,13 +8,15 @@ export interface CountdownEvent {
 
 // 应用数据结构（全量，用于导入导出）
 export interface AppData {
-  backgroundImage: string | null  // base64 or null
+  backgroundImage: string | null // base64 or null
   backgroundType: 'color' | 'image'
   backgroundColor: string
   searchEngine: 'google' | 'bing' | 'baidu' | 'duckduckgo'
   countdownEvents: CountdownEvent[]
   version: string
 }
+
+export type SearchEngine = AppData['searchEngine']
 
 export const DEFAULT_DATA: AppData = {
   backgroundImage: null,
@@ -23,7 +25,7 @@ export const DEFAULT_DATA: AppData = {
   searchEngine: 'bing',
   countdownEvents: [],
   version: '1.0.0',
-}
+} as const
 
 export const SEARCH_ENGINES = {
   google: 'https://www.google.com/search?q=',
@@ -32,7 +34,7 @@ export const SEARCH_ENGINES = {
   duckduckgo: 'https://duckduckgo.com/?q=',
 } as const
 
-export const SEARCH_ENGINE_LABELS: Record<string, string> = {
+export const SEARCH_ENGINE_LABELS: Record<SearchEngine, string> = {
   google: 'Google',
   bing: 'Bing',
   baidu: '百度',

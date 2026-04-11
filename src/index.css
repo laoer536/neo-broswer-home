@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --font-sans: 'Inter', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
@@ -8,7 +8,9 @@
   box-sizing: border-box;
 }
 
-html, body, #app {
+html,
+body,
+#app {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -17,13 +19,25 @@ html, body, #app {
 
 /* 时钟数字翻页动画 */
 @keyframes digitExit {
-  0%   { transform: translateY(0);    opacity: 1; }
-  100% { transform: translateY(-50%); opacity: 0; }
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
 }
 
 @keyframes digitEnter {
-  0%   { transform: translateY(50%); opacity: 0; }
-  100% { transform: translateY(0);   opacity: 1; }
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .digit-exit {

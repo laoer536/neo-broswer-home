@@ -5,10 +5,15 @@ interface FlipDigitProps {
   prev: string
 }
 
-// 数字组件，纯静态
-const Digit = ({ n }: { n: string }) => <span>{n}</span>
+interface DigitProps {
+  n: string
+}
 
-function FlipDigit({ value, prev }: FlipDigitProps) {
+// 数字组件，纯静态
+const Digit = (props: DigitProps) => <span>{props.n}</span>
+
+function FlipDigit(props: FlipDigitProps) {
+  const { value, prev } = props
   const [showExit, setShowExit] = useState(false)
   const [display, setDisplay] = useState(value)
   const prevRef = useRef(value)
@@ -69,7 +74,7 @@ export function Clock() {
   const m = now.getMinutes().toString().padStart(2, '0')
   const s = now.getSeconds().toString().padStart(2, '0')
 
-  const week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']
+  const week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'] as const
   const dateStr = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日  ${week[now.getDay()]}`
 
   return (
@@ -83,10 +88,7 @@ export function Clock() {
         <span className="opacity-60 mx-1">:</span>
         <FlipDigit value={m[0]} prev={prev.m[0]} />
         <FlipDigit value={m[1]} prev={prev.m[1]} />
-        <span
-          className="opacity-40 ml-1.5"
-          style={{ fontSize: '0.5em', transform: 'translateY(0.35em)' }}
-        >
+        <span className="opacity-40 ml-1.5" style={{ fontSize: '0.5em', transform: 'translateY(0.35em)' }}>
           :{s}
         </span>
       </div>
