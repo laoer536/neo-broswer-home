@@ -36,6 +36,19 @@ A customizable browser newtab extension built with Vite + React 18 + TypeScript 
 
 ## Quick Start
 
+### Download & Install (Recommended)
+
+Go to [Releases](../../releases) and download the latest `.zip` file, then:
+
+1. Open `edge://extensions/` (or `chrome://extensions/`)
+2. Enable **Developer mode** (top right)
+3. Drag the `.zip` file into the page and drop it, or click **Load unpacked** after extracting the zip
+4. Open a new tab — done
+
+> The zip is automatically built and attached to each release via GitHub Actions.
+
+### Build from Source
+
 ```bash
 # Install dependencies
 pnpm install

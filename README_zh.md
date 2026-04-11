@@ -36,6 +36,19 @@
 
 ## 快速开始
 
+### 下载安装（推荐）
+
+前往 [Releases](../../releases) 页面下载最新的 `.zip` 文件，然后：
+
+1. 打开 `edge://extensions/`（Chrome 用 `chrome://extensions/`）
+2. 开启右上角「**开发人员模式**」
+3. 将 `.zip` 文件拖拽到页面中，或解压后点击「**加载解压缩的扩展**」选择解压目录
+4. 打开新标签页即可看到效果
+
+> 每次发版时会通过 GitHub Actions 自动构建并上传 zip 包到 Release 中。
+
+### 从源码构建
+
 ```bash
 # 安装依赖
 pnpm install
