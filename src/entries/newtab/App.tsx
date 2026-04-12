@@ -55,7 +55,7 @@ export default function NewTabApp() {
       </div>
 
       {/* 右侧倒计时面板 */}
-      <div className="absolute right-8 top-1/2 -translate-y-1/2 z-10 w-72 max-h-[80vh] overflow-y-auto">
+      <div className="absolute right-8 top-1/2 -translate-y-1/2 z-10 w-72 max-h-[80vh] overflow-y-auto pr-2">
         <CountdownPanel events={data.countdownEvents} onAdd={handleAddCountdown} onDelete={handleDeleteCountdown} />
       </div>
 

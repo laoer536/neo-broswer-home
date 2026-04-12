@@ -13,7 +13,10 @@
 ![设置面板](https://files.seeusercontent.com/2026/04/11/Xgv2/2026-04-11-204237.png)
 
 ### 图片背景模式
-![图片背景模式](https://files.seeusercontent.com/2026/04/11/gzY9/2026-04-11-204302.png)
+![截屏2026-04-12 19.49.35.png](https://files.seeusercontent.com/2026/04/12/x6Nz/2026-04-12-194935.png)
+
+### 倒计时
+![截屏2026-04-12 20.55.23.png](https://files.seeusercontent.com/2026/04/12/Oj9r/2026-04-12-205523.png)
 
 ## 功能特性
 

@@ -13,7 +13,10 @@ A customizable browser newtab extension built with Vite + React 18 + TypeScript 
 ![Settings Panel](https://files.seeusercontent.com/2026/04/11/Xgv2/2026-04-11-204237.png)
 
 ### Image Background Mode
-![Image Background Mode](https://files.seeusercontent.com/2026/04/11/gzY9/2026-04-11-204302.png)
+![截屏2026-04-12 19.49.35.png](https://files.seeusercontent.com/2026/04/12/x6Nz/2026-04-12-194935.png)
+
+### Countdown
+![截屏2026-04-12 20.55.23.png](https://files.seeusercontent.com/2026/04/12/Oj9r/2026-04-12-205523.png)
 
 ## Features
 
