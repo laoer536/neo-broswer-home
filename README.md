@@ -39,7 +39,15 @@ A customizable browser newtab extension built with Vite + React 18 + TypeScript 
 
 ## Quick Start
 
-### Download & Install (Recommended)
+### Install from Edge Add-ons (Recommended)
+
+The extension is now available on the Microsoft Edge Add-ons store:
+
+[![Install from Edge Add-ons](https://files.seeusercontent.com/2026/05/21/1qgG/20260521145740.jpg)](https://microsoftedge.microsoft.com/addons/detail/neobrowserhome/ooihllcbhkabeainfikgoaefjhgmcbmm)
+
+> Click the image above or visit [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/neobrowserhome/ooihllcbhkabeainfikgoaefjhgmcbmm) to install directly.
+
+### Download & Install from Release
 
 Go to [Releases](../../releases) and download the latest `.zip` file, then:
 

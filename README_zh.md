@@ -39,7 +39,15 @@
 
 ## 快速开始
 
-### 下载安装（推荐）
+### 从 Edge 扩展商店安装（推荐）
+
+插件已发布至 Microsoft Edge 扩展商店：
+
+[![从 Edge 扩展商店安装](https://files.seeusercontent.com/2026/05/21/1qgG/20260521145740.jpg)](https://microsoftedge.microsoft.com/addons/detail/neobrowserhome/ooihllcbhkabeainfikgoaefjhgmcbmm)
+
+> 点击上方图片或访问 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/neobrowserhome/ooihllcbhkabeainfikgoaefjhgmcbmm) 直接安装。
+
+### 从 Release 下载安装
 
 前往 [Releases](../../releases) 页面下载最新的 `.zip` 文件，然后：
 
